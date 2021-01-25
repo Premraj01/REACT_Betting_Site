@@ -1,0 +1,21 @@
+/** @format */
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.sidebar {
+  background-color: cadetblue;
+  color: #333;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  align-self: start;
+}
+
+.content .team-table {
+  grid-column: 2 / span 3;
+}
